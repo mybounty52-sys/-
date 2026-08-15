@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template_string, request
 
-app = Flask(name)
+app = Flask(__name__)
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
